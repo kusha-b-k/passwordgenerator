@@ -1,2 +1,2 @@
 # passwordgenerator
-python PWD gen
+simpel python password generator code
