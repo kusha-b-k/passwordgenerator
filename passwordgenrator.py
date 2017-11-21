@@ -1,3 +1,7 @@
+#!/user/bin/ python
+# copy right kusha b k 2017
+  
+#import the random module
 import random
 
 def passwrodGenerator(strength):
@@ -11,5 +15,5 @@ def passwrodGenerator(strength):
     else:
      print( "UNBRACKBLE PAASWORD" )
     return "".join(random.sample(passwoord_charactors_list, strength))
-
+#PASS THE PASSWORD STRENGTH AS A PARAMETER
 print("YOUR PASSWORD IS :", passwrodGenerator(20))
